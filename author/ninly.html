@@ -30,66 +30,84 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://ninly.github.io/posts/2014/01/matasano-crypto-challenge-13/">Matasano Crypto Challenges, Exercise 13</a></h1> 
+                    <h1 class="entry-title"><a href="http://ninly.github.io/posts/2014/03/eudyptula-challenge/">The Eudyptula Challenge</a></h1> 
 <footer class="post-info">
-        <abbr class="published" title="2014-01-31T18:30:00">
-                31 January 2014
+        <abbr class="published" title="2014-03-12T22:10:00">
+                12 March 2014
         </abbr>
-<p>tags: <a href="http://ninly.github.io/tag/crypto/">crypto</a></p></footer><!-- /.post-info --><p>I started up this blog as a place to muse on current tech projects and
-share what I'm doing and learning. Then I went and got re-mired in my
-Matasano code, which I can't share.</p>
-<p>Last spring, on a tip from <a class="reference external" href="http://illruminations.com/">Steve</a>, I spent a bunch of time working on the then-brand-new
-<a class="reference external" href="http://www.matasano.com/articles/crypto-challenges/">Matasano Crypto Challenges</a>, which you should go read about if you're
-not already familiar.</p>
-<p>It was perfect for me in a lot of ways. In addition to my longstanding
-interest in things cryptological, it was a perfect venue to try my hand
-at more &quot;practical&quot; code, as I described in a <a class="reference external" href="http://ninly.github.io/posts/2014/01/pip-and-virtualenv-sans-magic/">previous post</a>. The
-exercises are (more or less) graded, and in many cases tell you roughly
-how you're going to approach the goal. I plugged at the first set of
-exercises for a few days, and felt like I'd wrapped my head around
-something new. I finished the first set and received the second, and
-things got even more interesting.</p>
-<p>Without revealing any content, I'll say that exercise 12 was
-particularly fun, engaging, and rewarding to accomplish. I felt quite a
-bit of momentum, and ready to tackle whatever came at me.</p>
-<p>Then, I hit exercise 13. I got stuck.</p>
-<p>I think the exercise assumed a certain level of practical familiarity
-with web-transaction infrastructure. <a class="footnote-reference" href="#id2" id="id1">[*]</a> User authentication, cookies,
-that sort of thing. I know more or less how that stuff works, but have
-little hands-on experience actually implementing them for a production
-website. Building on what I'd learned from the exercises thus far, I
-quickly sort of painted myself into a corner, feeling like every avenue
-I pursued wound up a dead end.</p>
-<p>Having a brand-new baby in the house also didn't help. Time devoted to
-the project evaporated for a time.</p>
-<p>There was a HDD failure on my dev/hacking machine, too, but that's
-another post.</p>
-<p>This week, after several months away from the code, I revisited the
-Matasano Crypto Challenges. I worked through my existing code, reminding
-myself what I'd done and how. I reimplemented a few functions, just to
-see if different ways to do things seemed cleaner or appealed more.
-Some did. And, as a lot of coders say, reading your own code months or
-years later can be painful, but also eye-opening.</p>
-<p>Then I approached that sticky wicket, exercise 13, with a fresh mind. I
-didn't even look at the code I'd written for it; I just reread the
-assignment, and started coding.</p>
-<p>I got my test code to pass yesterday. Turns out, it wasn't that bad.  My
-solution isn't perfect: I'm not entirely happy with some of the
-assumptions it makes (again, I'm trying not to reveal anything about the
-exercise content here), but it works, and at least I have something to
-improve on now.</p>
-<p>And, best of all, now I get to think about exercise 14.</p>
-<table class="docutils footnote" frame="void" id="id2" rules="none">
-<colgroup><col class="label" /><col /></colgroup>
-<tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id1">[*]</a></td><td>See <a class="reference external" href="https://blog.pinboard.in/2013/04/the_matasano_crypto_challenges/">this Pinboard blog post</a> for a good description of the Matasano Crypto Challenges by someone who <em>does</em> have that familiarity.</td></tr>
-</tbody>
-</table>
+<p>tags: <a href="http://ninly.github.io/tag/linux-kernel/">linux-kernel</a><a href="http://ninly.github.io/tag/eudyptula/">eudyptula</a></p></footer><!-- /.post-info --><p>It wasn't so long ago that I was pounding away on my Matasano Challenge
+code, and thinking about how I might write about the progress I was
+making. It was abstract, though -- progress to be sure, but a lot of
+the kind of thing you seem to learn when looking back at code you keyed
+several months prior. Painful in some ways, enlightening study in
+others.</p>
+<p>I had already been distracted once, hence the several months. Somewhere
+in the midst of a <em>real</em> course I had to take in a <em>real</em> school
+(Matasano's efforts and organization are real, of course, but I didn't
+have to pay them money or depend on a certain grade for economic
+reasons) and the crush of raising a couple of infants who don't know
+a whole lot about cryptography or programming, my code fell to the
+wayside. I still hope to get back to it one day.</p>
+<p>But something else happened recently, even as I was starting
+to delve back into the Matasano stuff. A <a class="reference external" href="http://eudyptula-challenge.org/">new challenge</a>, modeled on Matasano's approach, but
+geared toward Linux kernel hacking and many of the practical intricacies
+involved with the Linux kernel workflow: coding style, patch submission,
+and so on, as well as the long slog of learning how an operating system
+actually <em>works</em>.</p>
+<p>I found out about Eudyptula last month and signed right up. My free time
+has been wrapped around that axle ever since. Unfortunately, that means
+I'm not investing time in active FOSS projects or code I can share,
+which was a thing with Matasano, too. But I'm working on a foundation.</p>
+<p>I'm still fascinated with cryptography, both practical and theoretical,
+and the kinds of tasks that Matasano was throwing at me were also
+especially useful in getting my head around some day-to-day code
+organization and workflow. But <em>system programming</em> has always been a
+deeper interest of mine than some of the common learn-to-code tutorial
+stuff out there these days. My day job involves embedded systems and
+their designers, too, and I always had a strong inpulse for at least
+the idea of actually <em>developing</em> the kinds of real-time systems I
+test and troubleshoot. But learning the low level has often felt
+pretty slow-going, and I haven't found a whole lot of programmatic,
+goal-oriented guidance. Eudyptula's little penguin seems, so far, to be
+providing just what I needed.</p>
+<p>That's not to say he's making it <em>easy</em>; it's still slow-going. But
+that's because the Linux kernel is massive and mindbogglingly complex.
+There's a sense of <em>progress</em>, though, of what to read next, of what I'm
+missing. And #kernelnewbies (an IRC channel) is providing a good amount
+of assistance and perspective, too. There is a sense of goal in it all,
+too: The introductory email in the series suggests that after completing
+the exercises one should be equipped, if not to <em>be</em> a kernel subsystem
+maintainer (heavens forbid!), at least to understand what the heck it is
+they do, and to be an active developer.</p>
+<p>And in addition to all that personal practical coolness, we're talking
+about the Linux kernel: one of the most significant collaborative
+efforts in the history of cooperation. Perplexing at times, not without
+its barbs and pitfalls, but an effective sort of juggernaut that we all
+use and benefit from every day, whether or not we know it or think about
+it. And in its own interest of longevity, that juggernaut has produced
+this little spinoff; it's pretty exciting to be plugged into that.</p>
                 </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <hr />
                     <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h3><a href="http://ninly.github.io/posts/2014/01/matasano-crypto-challenge-13/" rel="bookmark"
+                           title="Permalink to Matasano Crypto Challenges, Exercise 13">Matasano Crypto Challenges, Exercise 13</a></h3>
+                </header>
+                
+                <div class="entry-content">
+                <p>I started up this blog as a place to muse on current tech projects and
+share what I'm doing and learning. Then I went and got re-mired in my
+Matasano code, which I can't share.</p>
+<p>Last spring, on a tip from <a class="reference external" href="http://illruminations.com/">Steve</a>, I spent a bunch of time ...</p>
+                <a class="readmore" href="http://ninly.github.io/posts/2014/01/matasano-crypto-challenge-13/">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
         
 
  
