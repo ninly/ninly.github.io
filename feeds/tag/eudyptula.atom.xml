@@ -37,12 +37,13 @@ an environment where it is available, it's worth checking out.&lt;/p&gt;
 &lt;div class="section" id="would-you-like-an-exam-with-that"&gt;
 &lt;h2&gt;Would You Like an Exam with That?&lt;/h2&gt;
 &lt;p&gt;This spring they offered a similar opportunity, but for people who
-aready have the CLAD certification they included the CLD exam -- their
+aready have the CLAD certification they offered the CLD exam -- their
 full professional development certification.&lt;/p&gt;
-&lt;p&gt;Great, I thought -- not a chance I should pass up. &lt;em&gt;But&lt;/em&gt;... the CLD is a
-&lt;em&gt;far&lt;/em&gt; more challenging exam. It's geared not only toward proficiency but
-&lt;em&gt;facility&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;It is a 4-hour practical exam. They shut you in a room, give you
+&lt;p&gt;Great, I thought -- not a chance I should pass up. It normally costs
+about $400. &lt;em&gt;But&lt;/em&gt;... the CLD is a far more challenging exam. It's geared
+not only to proficiency, but to &lt;em&gt;facility&lt;/em&gt; with the software and its
+graphical language.&lt;/p&gt;
+&lt;p&gt;It's a 4-hour practical exam. They shut you in a room, give you
 a sealed spec for an application of nontrivial complexity (typical
 textbook state machines -- modelling behavior of systems like ATMs,
 vending machines, and so forth -- but with a lot of real-world-like
@@ -50,15 +51,15 @@ functions, constraints, and corner cases). Without any external
 references or breaks, you have to build a working application.&lt;/p&gt;
 &lt;p&gt;Four hours may seem like a long time, but it's widely regarded as the
 most challenging aspect of the CLD exam. To implement the typically
-specified complexit in the time allotted, you really have to know
+specified complexity in the time allotted, you really have to know
 your way around the software &lt;em&gt;and&lt;/em&gt; be able to make quick decisions about
 how to implement the application's logic.&lt;/p&gt;
-&lt;p&gt;And there's not any wiggle room. You can't take breaks or use your
-phone. There's no Internet or reference manual available (other than
-LabVIEW's built-in help). In four hours, you save your code to a thumb
-drive, seal it in an envelope, and wait several weeks for an anonymous
-NI engineer to review your code. I took the exam in mid-May, and still
-haven't received my results.&lt;/p&gt;
+&lt;p&gt;There's not any wiggle room. You can't take breaks or use your phone. No
+Internet or reference manual is available (other than LabVIEW's built-in
+help). When time runs out, you save your code to a thumb drive, seal it
+in an envelope, and wait several weeks for an anonymous NI engineer to
+review your code. To fast-forward a bit: I took the exam in mid-May, and
+still haven't received my results.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="cram-time"&gt;
 &lt;h2&gt;Cram Time&lt;/h2&gt;
