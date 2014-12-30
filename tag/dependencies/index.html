@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>ninly&rsquo;s bog - Tags</title>
+        <title>ninly&rsquo;s bog - dependencies</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="http://ninly.github.io/theme/css/main.css" type="text/css" />
 
@@ -25,13 +25,39 @@
                     <a href="http://ninly.github.io/category/misc">misc</a>&nbsp;
                 </nav>
         </header><!-- /#banner -->
-    <h1>Tags for ninly&rsquo;s bog</h1>        <li><a href="http://ninly.github.io/tag/blog/">blog</a> (2)</li>
-        <li><a href="http://ninly.github.io/tag/crypto/">crypto</a> (1)</li>
-        <li><a href="http://ninly.github.io/tag/dependencies/">dependencies</a> (1)</li>
-        <li><a href="http://ninly.github.io/tag/eudyptula/">eudyptula</a> (1)</li>
-        <li><a href="http://ninly.github.io/tag/labview/">labview</a> (1)</li>
-        <li><a href="http://ninly.github.io/tag/linux-kernel/">linux-kernel</a> (2)</li>
-        <li><a href="http://ninly.github.io/tag/python/">python</a> (2)</li>
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://ninly.github.io/posts/2014/12/more-virtualenv-sans-magic/">More virtualenv (sans) magic</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2014-12-09T12:00:00">
+                09 December 2014
+        </abbr>
+<p>tags: <a href="http://ninly.github.io/tag/python/">python</a><a href="http://ninly.github.io/tag/dependencies/">dependencies</a></p></footer><!-- /.post-info --><p>Several months back I was figuring out how to use pip and virtualenv,
+and generally having a pretty good time with my python development
+experience. However, I kept running into interesting code examples and
+projects that required matplotlib and the numpy/scipy stack. Since I've
+also been trying to get familiar with mathematical modeling, analysis
+and visualization techniques, these are indispensable dependencies.</p>
+<p>I could (and had) play with them &quot;raw&quot;, but ran into problems when I
+tried to enjoy the control and isolation afforded by virtualenv. Last
+week, though, in one of my periodic attempts to comb through dependency
+installations, I stumbled on <a class="reference external" href="https://gist.github.com/fyears/7601881">this gist</a>, and it cleared up all my
+problems. I haven't delved into whatever reasons may have existed for my
+previous difficulties, but if you're having trouble, maybe it will help
+you. All I did was to set up a new virtual env and pip-install my way
+through the list. It... just worked, for the most part (thanks,
+<a class="reference external" href="https://www.fyears.org/">fyears</a>!), although I did have to update some fortran-compiler stuff
+that numpy needed.</p>
+                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>

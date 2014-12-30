@@ -30,19 +30,50 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://ninly.github.io/posts/2014/01/pip-and-virtualenv-sans-magic/">Pip and virtualenv sans magic</a></h1> 
+                    <h1 class="entry-title"><a href="http://ninly.github.io/posts/2014/12/more-virtualenv-sans-magic/">More virtualenv (sans) magic</a></h1> 
 <footer class="post-info">
-        <abbr class="published" title="2014-01-04T12:00:00">
-                04 January 2014
+        <abbr class="published" title="2014-12-09T12:00:00">
+                09 December 2014
         </abbr>
-<p>tags: <a href="http://ninly.github.io/tag/python/">python</a></p></footer><!-- /.post-info --><p>I'm trying to bridge the gap between understanding the syntax of Python (among another language or three) and <em>how to develop</em> in them. To wit, I was setting up some of the standard tools for package management on my Arch Linux system, and having a little trouble understanding why I was getting permissions errors while following several of the pip/virtualenv tutorials out there.</p>
-<p>Jamie Matthews's post at <a class="reference external" href="http://dabapps.com/blog/introduction-to-pip-and-virtualenv-python/">dabapps</a> did a lot to clear up a lot of whatever was throwing me off.</p>
+<p>tags: <a href="http://ninly.github.io/tag/python/">python</a><a href="http://ninly.github.io/tag/dependencies/">dependencies</a></p></footer><!-- /.post-info --><p>Several months back I was figuring out how to use pip and virtualenv,
+and generally having a pretty good time with my python development
+experience. However, I kept running into interesting code examples and
+projects that required matplotlib and the numpy/scipy stack. Since I've
+also been trying to get familiar with mathematical modeling, analysis
+and visualization techniques, these are indispensable dependencies.</p>
+<p>I could (and had) play with them &quot;raw&quot;, but ran into problems when I
+tried to enjoy the control and isolation afforded by virtualenv. Last
+week, though, in one of my periodic attempts to comb through dependency
+installations, I stumbled on <a class="reference external" href="https://gist.github.com/fyears/7601881">this gist</a>, and it cleared up all my
+problems. I haven't delved into whatever reasons may have existed for my
+previous difficulties, but if you're having trouble, maybe it will help
+you. All I did was to set up a new virtual env and pip-install my way
+through the list. It... just worked, for the most part (thanks,
+<a class="reference external" href="https://www.fyears.org/">fyears</a>!), although I did have to update some fortran-compiler stuff
+that numpy needed.</p>
                 </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h3><a href="http://ninly.github.io/posts/2014/01/pip-and-virtualenv-sans-magic/" rel="bookmark"
+                           title="Permalink to Pip and virtualenv sans magic">Pip and virtualenv sans magic</a></h3>
+                </header>
+                
+                <div class="entry-content">
+                <p>I'm trying to bridge the gap between understanding the syntax of Python (among another language or three) and <em>how to develop</em> in them. To wit, I was setting up some of the standard tools for package management on my Arch Linux system, and having a little trouble understanding why ...</p>
+                <a class="readmore" href="http://ninly.github.io/posts/2014/01/pip-and-virtualenv-sans-magic/">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
-            </ol><!-- /#posts-list -->
             </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
